@@ -1,0 +1,53 @@
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=1
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=2
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=3
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{}
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:{"schema": "schema_teste_api", "payload": {"measurement0": "Teste", "measurement1": 100, "measurement2": true, "measurement3": 2.5}}
+DEBUG:root:{"schema": "schema_teste_api", "payload": {"measurement0": "Teste", "measurement1": 100, "measurement2": true, "measurement3": 2.5}}
+DEBUG:root:{"schema": "schema_teste_api", "payload": {"measurement0": "Teste", "measurement1": 100, "measurement2": true, "measurement3": 2.5}}
+DEBUG:root:{"schema": "schema_teste_api", "payload": {"measurement0": "Teste", "measurement1": 100, "measurement2": true, "measurement3": 2.5}}
+DEBUG:root:{"schema": "schema_teste_api", "payload": {"measurement0": "Teste", "measurement1": 100, "measurement2": true, "measurement3": 2.5}}
