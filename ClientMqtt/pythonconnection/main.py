@@ -28,13 +28,13 @@ class MqttController(object):
         #########################################################################################
         # CHANGE HERE
         #########################################################################################
-        self.broker_mqtt_CACert = ""
+        self.broker_mqtt_CACert = "/home/josinaldo/WorkStation/LedThink/Lyra/ClientMqtt/pythonconnection/CA.cert"
 
         # Device related
-        self.device_id = ""
-        self.client_id = ""
-        self.device_cert = ""
-        self.device_key = ""
+        self.device_id = "4431b032-db1c-45f7-a0cb-c7daddafb41c"
+        self.client_id = "4431b032-db1c-45f7-a0cb-c7daddafb41c"
+        self.device_cert = "/home/josinaldo/WorkStation/LedThink/Lyra/ClientMqtt/pythonconnection/cert.pem"
+        self.device_key = "/home/josinaldo/WorkStation/LedThink/Lyra/ClientMqtt/pythonconnection/key.pem"
 
         #########################################################################################
         #########################################################################################

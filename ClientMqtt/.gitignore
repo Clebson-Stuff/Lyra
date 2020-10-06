@@ -2,3 +2,4 @@ Certificacoes/
 
 /pythonconnection/CA.cert
 /pythonconnection/*.pem
+/pythonconnection/logger.txt
